@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go back"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white" />
+    <fragment
+        android:id="@+id/frag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.amit.fragmentanimationex2.Anim2Fragment"/>
+
+</LinearLayout>

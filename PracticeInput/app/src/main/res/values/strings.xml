@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PracticeInput</string>
+    <string-array name="planet_array">
+        <item>Mercury</item>
+        <item>Jupiter</item>
+        <item>Uranus</item>
+        <item>Pluto</item>
+        <item>Asteroids</item>
+    </string-array>
+</resources>
